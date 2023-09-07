@@ -7,6 +7,7 @@ const button = document.querySelector('.js_button');
 const result = document.querySelector('.js_result');
 const balance = document.querySelector('.js_balance');
 
+
 function getRandomNumber(max) {
   return Math.ceil(Math.random() * max);
 }

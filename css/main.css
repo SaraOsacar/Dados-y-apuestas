@@ -1,7 +1,6 @@
 body {
   background-color: rgba(1, 213, 234, 255);
   margin: 0;
-  /* Elimina el margen predeterminado del cuerpo */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,6 +50,7 @@ body {
   height: 25px;
   cursor: pointer;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .button {
@@ -73,4 +73,54 @@ body {
 
 .balance {
   font-size: 20px;
+}
+
+
+@media screen and (max-width: 468px) {
+  .title {
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 10px;
+  }
+
+  .title2 {
+    font-size: 20px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .select {
+    height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .input {
+    height: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 200px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .button {
+    font-size: 12px;
+    width: 80px;
+    height: 25px;
+  }
+
+  .balance {
+    font-size: 15px;
+  }
+
+  .image {
+    height: 150px;
+    width: 150px;
+  }
 }
