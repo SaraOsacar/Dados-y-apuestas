@@ -124,3 +124,17 @@ body {
     width: 150px;
   }
 }
+.js_result {
+  text-align: center;
+  /* Alinea el texto al centro */
+  font-size: 16px;
+  /* Cambia el tamaño de fuente en móvil */
+}
+
+/* Estilos para el texto de balance en móvil */
+.js_balance {
+  text-align: center;
+  /* Alinea el texto al centro */
+  font-size: 16px;
+  /* Cambia el tamaño de fuente en móvil */
+}
