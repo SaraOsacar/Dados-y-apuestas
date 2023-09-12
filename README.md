@@ -9,6 +9,19 @@ Para realizar el juego debemos realizar las siguientes funcionalidades desde Jav
 - Crear una maquetación mínima con el select, el botón y el espacio para el resultado.
 - Generar un número aleatorio entre el 1 y el 6 con la ayuda de Math.randon y Math.ceil.
 - Comparar el número que la jugadora ha seleccionado con el número aleatorio y pintar el resultado correspondiente en la pantalla.
+  
 
-¡A jugar! 🎰 💸
+ ### Herramientas utilizadas ⚒️:
+
+- HTML
+- CSS
+- JavaScript
+- Visual Studio Code
+- GitHub
+- GitHub Pages
+
+
+
+
+ ¡A jugar! 🎰 💸
   
